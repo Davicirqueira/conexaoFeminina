@@ -1,0 +1,39 @@
+.comp-header{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 13%;
+    background-color: #F4B5AC;
+
+    .image{
+
+        img{
+            width: 100px;
+        }
+
+        margin-right: 35%;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        gap: 45px;
+        
+        a{
+            color: #000;
+            font: 400 18px "Poppins";
+            opacity: 1;
+        }
+
+
+        .active{
+
+            background-color: #F4B5AC;
+            border-radius: 10px;
+            padding: 8px;
+            box-shadow: 0 0 10px #000;
+            font: 500 18px "Poppins";
+        }
+
+    }
+}
